@@ -61,6 +61,11 @@ public class HedgehogEntity extends AnimalEntity {
     }
 
     @Override
+    protected float getSoundVolume() {
+        return 0.1f;
+    }
+
+    @Override
     protected void initGoals() {
         this.goalSelector.add(0, new SwimGoal(this));
         this.goalSelector.add(1, new EscapeDangerGoal(this, 0.9D));
