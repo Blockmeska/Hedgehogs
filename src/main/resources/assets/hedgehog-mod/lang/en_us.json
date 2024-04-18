@@ -1,0 +1,9 @@
+{
+  "item.hedgehog-mod.forest_hedgehog_spawn_egg": "Forest Hedgehog Spawn Egg",
+  "item.hedgehog-mod.desert_hedgehog_spawn_egg": "Desert Hedgehog Spawn Egg",
+  "item.hedgehog-mod.snow_hedgehog_spawn_egg": "Snow Hedgehog Spawn Egg",
+
+  "entity.hedgehog-mod.forest_hedgehog": "Forest Hedgehog",
+  "entity.hedgehog-mod.desert_hedgehog": "Desert Hedgehog",
+  "entity.hedgehog-mod.snow_hedgehog": "Snow Hedgehog"
+}

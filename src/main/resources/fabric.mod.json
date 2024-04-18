@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "hedgehog-mod",
+	"version": "${version}",
+	"name": "Hedgehogs",
+	"description": "Adds the hedgehog from Minecraft Dungeons, as well as two new variants.",
+	"authors": [
+		"Blockmeska"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hedgehog-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"blockmeska.mod.HedgehogMod"
+		],
+		"client": [
+			"blockmeska.mod.HedgehogModClient"
+		],
+		"fabric-datagen": [
+			"blockmeska.mod.HedgehogModDataGenerator"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
